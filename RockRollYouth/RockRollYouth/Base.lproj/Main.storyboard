@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cpb-oH-TGD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--发现-->
+        <scene sceneID="w3K-a2-fcV">
+            <objects>
+                <viewController id="Zev-wI-zwv" customClass="RRYDiscoverViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zi5-5z-o5a"/>
+                        <viewControllerLayoutGuide type="bottom" id="tg6-Wr-U9A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gcb-QL-ahI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现" id="nIQ-Ii-9a4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BDs-EG-Mcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826" y="834"/>
+        </scene>
+        <!--摇滚史-->
+        <scene sceneID="9uA-eV-Z6i">
+            <objects>
+                <viewController id="BMQ-SU-9nb" customClass="RRYRockRollHistoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3jP-Bd-RZq"/>
+                        <viewControllerLayoutGuide type="bottom" id="mdY-kI-tVN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0VP-R3-bfe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="摇滚史" id="E4B-5V-huN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2iR-1T-98B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="280"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="Iz0-iW-YIn">
+            <objects>
+                <viewController id="ojJ-9i-VBh" customClass="RRYMyRockViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oT8-DT-4gv"/>
+                        <viewControllerLayoutGuide type="bottom" id="hTX-PT-iaD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XMm-Na-Wsi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" id="u1X-P4-HmI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PXf-6Y-qxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1534" y="972"/>
+        </scene>
+        <!--摇滚-->
+        <scene sceneID="JBx-tm-Jcl">
+            <objects>
+                <viewController id="eGB-zI-jkh" customClass="RRYRockRollViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vcb-9k-Yda"/>
+                        <viewControllerLayoutGuide type="bottom" id="OWm-cp-XBK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddU-aU-pJk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="摇滚" id="GPV-lw-nK7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikg-Rg-QoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826" y="173"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="CnH-4p-H0Q">
+            <objects>
+                <tabBarController id="cpb-oH-TGD" customClass="RRYTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="dOM-xs-aZN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eGB-zI-jkh" kind="relationship" relationship="viewControllers" id="D4k-ll-VA3"/>
+                        <segue destination="Zev-wI-zwv" kind="relationship" relationship="viewControllers" id="1bO-fP-wYq"/>
+                        <segue destination="BMQ-SU-9nb" kind="relationship" relationship="viewControllers" id="omm-Cq-zqT"/>
+                        <segue destination="ojJ-9i-VBh" kind="relationship" relationship="viewControllers" id="Mrz-fP-yR2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mH-yY-S76" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6" y="504"/>
+        </scene>
+    </scenes>
+</document>
