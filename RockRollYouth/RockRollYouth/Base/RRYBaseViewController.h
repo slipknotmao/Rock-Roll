@@ -10,4 +10,23 @@
 
 @interface RRYBaseViewController : UIViewController
 
+#pragma mark - Navigation
+
+- (void)addNavigationItemBackButton;
+
+- (void)addNavigationItemLeftButtonWithTitle:(NSString *)title;
+
+- (void)addNavigationItemLeftButtonWithImageName:(NSString *)imageName
+                            HighlightedImageName:(NSString *)highlightedImageName;
+
+- (void)addNavigationItemRightButtonWithTitle:(NSString *)title
+                                       target:(id)target selector:(SEL)selector;
+
+- (void)addNavigationItemRightButtonWithImageName:(NSString *)imageName
+                             HighlightedImageName:(NSString *)highlightedImageName
+                                           target:(id)target
+                                         selector:(SEL)selector;
+
+- (void)addNavigationTitleView:(UIView *)titleView;
+
 @end

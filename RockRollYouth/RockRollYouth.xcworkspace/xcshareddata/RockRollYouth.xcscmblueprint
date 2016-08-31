@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B6B1C07913355B526531B729E8E77FE116C5543",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B6B1C07913355B526531B729E8E77FE116C5543" : 0,
+    "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AF6BE3AB-9295-48F7-8651-79F2CD1EFC34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B6B1C07913355B526531B729E8E77FE116C5543" : "Rock-Roll\/",
+    "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RockRollYouth",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RockRollYouth\/RockRollYouth.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:slipknotmao\/Rock-Roll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B6B1C07913355B526531B729E8E77FE116C5543"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:slipknotmao\/RiskTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567"
+    }
+  ]
+}

@@ -26,6 +26,10 @@
 		4377563F1D753BAE007EA66C /* RRYRockRollHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4377563D1D753BAE007EA66C /* RRYRockRollHistoryViewController.xib */; };
 		437756431D753BC2007EA66C /* RRYMyRockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437756411D753BC2007EA66C /* RRYMyRockViewController.m */; };
 		437756441D753BC2007EA66C /* RRYMyRockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437756421D753BC2007EA66C /* RRYMyRockViewController.xib */; };
+		43E1EE7F1D76B45A00B9DA2D /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 43E1EE7B1D76B45A00B9DA2D /* IPAddress.c */; };
+		43E1EE801D76B45A00B9DA2D /* RRYDeviceInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1EE7E1D76B45A00B9DA2D /* RRYDeviceInfoService.m */; };
+		43E1EE841D76B9C700B9DA2D /* RRYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1EE831D76B9C700B9DA2D /* RRYLocationManager.m */; };
+		43E1EE881D76C3FD00B9DA2D /* RRYCrashHandleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1EE871D76C3FD00B9DA2D /* RRYCrashHandleService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		1197FA5E960C11D06393019E /* Pods-RockRollYouth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRollYouth.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockRollYouth/Pods-RockRollYouth.release.xcconfig"; sourceTree = "<group>"; };
+		435303451D76B00B00F6229D /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		437755CA1D752E90007EA66C /* RockRollYouth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockRollYouth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437755CE1D752E90007EA66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		437755D01D752E90007EA66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +86,14 @@
 		437756401D753BC2007EA66C /* RRYMyRockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYMyRockViewController.h; sourceTree = "<group>"; };
 		437756411D753BC2007EA66C /* RRYMyRockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYMyRockViewController.m; sourceTree = "<group>"; };
 		437756421D753BC2007EA66C /* RRYMyRockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRYMyRockViewController.xib; sourceTree = "<group>"; };
+		43E1EE7B1D76B45A00B9DA2D /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		43E1EE7C1D76B45A00B9DA2D /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		43E1EE7D1D76B45A00B9DA2D /* RRYDeviceInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYDeviceInfoService.h; sourceTree = "<group>"; };
+		43E1EE7E1D76B45A00B9DA2D /* RRYDeviceInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYDeviceInfoService.m; sourceTree = "<group>"; };
+		43E1EE821D76B9C700B9DA2D /* RRYLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYLocationManager.h; sourceTree = "<group>"; };
+		43E1EE831D76B9C700B9DA2D /* RRYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYLocationManager.m; sourceTree = "<group>"; };
+		43E1EE861D76C3FD00B9DA2D /* RRYCrashHandleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCrashHandleService.h; sourceTree = "<group>"; };
+		43E1EE871D76C3FD00B9DA2D /* RRYCrashHandleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCrashHandleService.m; sourceTree = "<group>"; };
 		A7435D8371F04B48A03714F3 /* Pods-RockRollYouth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRollYouth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockRollYouth/Pods-RockRollYouth.debug.xcconfig"; sourceTree = "<group>"; };
 		AE1EAC1AFC7FD58CEBD7F475 /* libPods-RockRollYouth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RockRollYouth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,6 +151,7 @@
 			children = (
 				437756121D7537FB007EA66C /* Application */,
 				437756001D7537F7007EA66C /* Base */,
+				43E1EE791D76B45A00B9DA2D /* Core */,
 				437756011D7537F7007EA66C /* Categories */,
 				437756021D7537F7007EA66C /* Macros */,
 				437756051D7537F7007EA66C /* Modules */,
@@ -202,6 +216,7 @@
 			children = (
 				437756031D7537F7007EA66C /* ConfigMacros.h */,
 				437756041D7537F7007EA66C /* PrefixHeader.pch */,
+				435303451D76B00B00F6229D /* SynthesizeSingleton.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -433,6 +448,45 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		43E1EE791D76B45A00B9DA2D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				43E1EE851D76C37B00B9DA2D /* CrashHandleService */,
+				43E1EE7A1D76B45A00B9DA2D /* DeviceInfoService */,
+				43E1EE811D76B9AC00B9DA2D /* LocationService */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		43E1EE7A1D76B45A00B9DA2D /* DeviceInfoService */ = {
+			isa = PBXGroup;
+			children = (
+				43E1EE7B1D76B45A00B9DA2D /* IPAddress.c */,
+				43E1EE7C1D76B45A00B9DA2D /* IPAddress.h */,
+				43E1EE7D1D76B45A00B9DA2D /* RRYDeviceInfoService.h */,
+				43E1EE7E1D76B45A00B9DA2D /* RRYDeviceInfoService.m */,
+			);
+			path = DeviceInfoService;
+			sourceTree = "<group>";
+		};
+		43E1EE811D76B9AC00B9DA2D /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				43E1EE821D76B9C700B9DA2D /* RRYLocationManager.h */,
+				43E1EE831D76B9C700B9DA2D /* RRYLocationManager.m */,
+			);
+			path = LocationService;
+			sourceTree = "<group>";
+		};
+		43E1EE851D76C37B00B9DA2D /* CrashHandleService */ = {
+			isa = PBXGroup;
+			children = (
+				43E1EE861D76C3FD00B9DA2D /* RRYCrashHandleService.h */,
+				43E1EE871D76C3FD00B9DA2D /* RRYCrashHandleService.m */,
+			);
+			path = CrashHandleService;
+			sourceTree = "<group>";
+		};
 		4D5B403651A48A5E92C752AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,7 +689,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E1EE881D76C3FD00B9DA2D /* RRYCrashHandleService.m in Sources */,
+				43E1EE801D76B45A00B9DA2D /* RRYDeviceInfoService.m in Sources */,
 				437756391D753B8F007EA66C /* RRYDiscoverViewController.m in Sources */,
+				43E1EE7F1D76B45A00B9DA2D /* IPAddress.c in Sources */,
 				437756281D753B47007EA66C /* RRYRockRollViewController.m in Sources */,
 				437755D21D752E90007EA66C /* AppDelegate.m in Sources */,
 				437756431D753BC2007EA66C /* RRYMyRockViewController.m in Sources */,
@@ -643,6 +700,7 @@
 				4377561D1D753A49007EA66C /* RRYNavigationController.m in Sources */,
 				437756161D75390A007EA66C /* RRYTabBarController.m in Sources */,
 				437755CF1D752E90007EA66C /* main.m in Sources */,
+				43E1EE841D76B9C700B9DA2D /* RRYLocationManager.m in Sources */,
 				4377563E1D753BAE007EA66C /* RRYRockRollHistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -785,6 +843,8 @@
 			baseConfigurationReference = A7435D8371F04B48A03714F3 /* Pods-RockRollYouth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/RockRollYouth/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = RockRollYouth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slipknot.RockRollYouth;
@@ -797,6 +857,8 @@
 			baseConfigurationReference = 1197FA5E960C11D06393019E /* Pods-RockRollYouth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/RockRollYouth/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = RockRollYouth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slipknot.RockRollYouth;

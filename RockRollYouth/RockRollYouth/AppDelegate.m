@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "RRYTabBarController.h"
+#import "RRYLocationManager.h"
+#import "RRYDeviceInfoService.h"
+#import "RRYCrashHandleService.h"
+
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 
 @interface AppDelegate ()
 
@@ -14,9 +20,15 @@
 
 @implementation AppDelegate
 
+#pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self registerPublicService];
+    self.window.rootViewController = [[RRYTabBarController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -36,10 +48,29 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [self reportCrashService];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Service
+- (void)registerPublicService {
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    [[RRYLocationManager sharedInstance] startLocationPositioning];
+    [RRYDeviceInfoService sharedInstance];
+    DDLogInfo([[RRYDeviceInfoService sharedInstance] description]);
+}
+
+- (void)reportCrashService {
+    [RRYCrashHandleService uploadExceptionHandler:^(BOOL success){
+        if (success) {
+            NSLog(@"upLoadCatchCrashSuccess");
+        }else{
+            NSLog(@"upLoadCatchCrashFail");
+        }
+    }];
 }
 
 @end

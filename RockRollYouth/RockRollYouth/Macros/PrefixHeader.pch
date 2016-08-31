@@ -18,9 +18,14 @@
 
 #ifdef __OBJC__
 
+#import <UIKit/UIKit.h>
 #import <UMMobClick/MobClick.h>
 #import <Bugly/Bugly.h>
-#import <Aspects/Aspects.h>
+#import "Aspects.h"
+#import "CocoaLumberjack.h"
+
 #import "ConfigMacros.h"
+#import "RRYLocationManager.h"
+#import "Reachability.h"
 
 #endif
